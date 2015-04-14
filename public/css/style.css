@@ -2,3 +2,10 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
+.button-actions {
+    float: right;
+    display: inline-flex;
+}
+.button-actions form {
+    pladding-left: 5px;
+}

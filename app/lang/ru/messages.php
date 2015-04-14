@@ -1,4 +1,7 @@
 <?php
 return array(
-    'create_only_logged' => 'Create planets can only logged users',
+    'create_only_logged' => 'Создавать планеты могут только зарегистрированные пользователи',
+    'planet_not_found'=>'Планета не найдена',
+    'delete_only_logged'=>'Удалять планету могут только зарегистрироавнные пользователи',
+    'edit_only_logged'=>'Редактировать планету могут только зарегистрироавнные пользователи',
 );

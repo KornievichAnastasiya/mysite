@@ -19,5 +19,5 @@
         Просмотров: {{ $planet->views }}
     </p>
 
-    <p><a class="btn btn-default" href="{{ action('PlanetsController@getView', array($planet->id)) }}" role="button">Детали планеты &raquo;</a></p>
+    <p><a class="btn btn-default" href="{{ action('PlanetsController@show', array($planet->id)) }}" role="button">Детали планеты &raquo;</a></p>
 </div>
