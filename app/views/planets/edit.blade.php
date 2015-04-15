@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('title')
-Редактирование планеты
+    @lang('planet.title_edit')
 @stop
 
 @section('content')
@@ -14,7 +14,7 @@
                 @endforeach
             </div>
         @endif
-        <h2>Редактирование планеты</h2>
+        <h2>@lang('planet.title_edit')</h2>
 
         {{ Form::open(array('url' => action('PlanetsController@update',$planet->id), 'method' => 'put', 'role' => 'form', 'class' => 'form-horizontal')) }}
         @include('planets/form')
@@ -22,7 +22,7 @@
         <div class="form-group">
             <div class="col-sm-2">&nbsp;</div>
             <div class="col-sm-5">
-                <button type="submit" class="btn btn-primary submit-button">Изменить</button>
+                <button type="submit" class="btn btn-primary submit-button">@lang('action.update')</button>
             </div>
         </div>
         {{ Form::close() }}
