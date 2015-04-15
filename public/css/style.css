@@ -7,5 +7,10 @@ body {
     display: inline-flex;
 }
 .button-actions form {
+<<<<<<< HEAD
     pladding-left: 5px;
 }
+=======
+    padding-left: 5px;
+}
+>>>>>>> 0209a5d364eaa2acfb6ac10c71a4cef64fbb2ba0

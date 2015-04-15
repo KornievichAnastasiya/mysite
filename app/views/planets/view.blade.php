@@ -32,7 +32,8 @@
             <td>{{{ $planet->system }}}</td>
         </tr>
         <tr>
-            <td>@lang('planet.name')</td>
+            <td>@lang('planet.name'):</td>
+
             <td>{{{ $planet->planet }}}</td>
         </tr>
         <tr>
@@ -68,19 +69,22 @@
         </tr>
         <tr>
             <td>@lang('planet.comment'):</td>
-        <td>{{$planet->comment}}</td>
+            <td>{{ $planet->comment }}</td>
+
         </tr>
     </table>
     @if(Auth::check() && $planet->author == Auth::user())
         <div class="button-actions">
-            {{Form::open(array('url'=>action('PlanetsController@edit', $planet->id),'method'=>'get','role'=>'form', 'class'=>'form-group'))}}
-            {{Form::submit('Edit', array('class'=>'btn btn-warning'))}}
-            {{Form::close()}}
 
-            {{Form::open(array('url'=>action('PlanetsController@destroy', $planet->id),'method'=>'delete','role'=>'form', 'class'=>'form-group'))}}
-            {{Form::submit('Delete', array('class'=>'btn btn-danger'))}}
-            {{Form::close()}}
-</div>
+            {{ Form::open(array('url' => action('PlanetsController@edit', $planet->id), 'method' => 'get', 'role' => 'form', 'class' => 'form-group')) }}
+            {{ Form::submit(Lang::get('action.edit'), array('class' => 'btn btn-warning'))}}
+            {{ Form::close() }}
+
+            {{ Form::open(array('url' => action('PlanetsController@destroy', $planet->id), 'method' => 'delete', 'role' => 'form', 'class' => 'form-group')) }}
+            {{ Form::submit(Lang::get('action.delete'), array('class' => 'btn btn-danger'))}}
+            {{ Form::close() }}
+        </div>
+
     @endif
 </div>
 @stop

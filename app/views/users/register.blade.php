@@ -15,7 +15,8 @@
         </div>
     @endif
 
-    <h1> @lang('action.register')</h1>
+    <h1>@lang('action.register')</h1>
+
 {{ Form::open(array('url' => 'users/register', 'role' => 'form', 'class' => 'form-horizontal')) }}
     <div class="form-group">
         {{ Form::label('email', Lang::get('user.email'), array('class' => 'col-sm-2 control-label')) }}

@@ -1,14 +1,19 @@
 @extends('layout')
 
 @section('title')
+
 @lang('planet.title_index')
+
+
 @stop
 
 @section('content')
 <div class="jumbotron">
     <div class="container">
         <h1>@lang('planet.title_index')</h1>
+
         <p>@lang('planet.count_in_database') {{ $counter }}</p>
+
     </div>
 </div>
 

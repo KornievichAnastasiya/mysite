@@ -14,7 +14,10 @@
                 @endforeach
             </div>
         @endif
+
         <h2> @lang('planet.title_add')</h2>
+
+
 
         {{ Form::open(array('url' => action('PlanetsController@store'), 'method' => 'post', 'role' => 'form', 'class' => 'form-horizontal')) }}
         @include('planets/form')
