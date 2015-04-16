@@ -19,7 +19,8 @@
     <!-- Bootstrap -->
     <!--  <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>-->
     <script src="/js/bootstrap.min.js"></script>
-
+    <script src="/js/bootstrap-dialog.min.js"></script>
+    <script src="/js/mysite.js"></script>
 
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
