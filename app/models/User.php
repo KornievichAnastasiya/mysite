@@ -152,4 +152,8 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
     protected function generateCode() {
         return Str::random();
     }
+    public  function planets()
+    {
+        return $this->hasMany('Planet');
+    }
 }

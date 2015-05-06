@@ -19,6 +19,7 @@ return array(
     'PlanetRepository' => $baseDir . '/app/repository/PlanetRepository.php',
     'PlanetTableSeeder' => $baseDir . '/app/database/seeds/PlanetTableSeeder.php',
     'PlanetsController' => $baseDir . '/app/controllers/PlanetsController.php',
+    'PlanetsTablAddColumnImage' => $baseDir . '/app/database/migrations/2015_05_05_173858_planets_tabl_add_column_image.php',
     'RemindersController' => $baseDir . '/app/controllers/RemindersController.php',
     'SessionHandlerInterface' => $vendorDir . '/symfony/http-foundation/Symfony/Component/HttpFoundation/Resources/stubs/SessionHandlerInterface.php',
     'TestCase' => $baseDir . '/app/tests/TestCase.php',

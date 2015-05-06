@@ -25,5 +25,6 @@ return array(
     'title_show' => 'Планета ":planetName"',
     'version_game' => 'Версия игры',
     'views' => 'Количество просмотров',
+    'image'=>'Изображение',
 
 );

@@ -71,6 +71,17 @@
             <td>@lang('planet.comment'):</td>
             <td>{{ $planet->comment }}</td>
 
+
+        </tr>
+        <tr>
+            <td>@lang('planet.image'):</td>
+            <td>
+               @if( $planet->image)
+            <img src="/img/uploads/{{ $planet->image}}" style ="max-width: 100%">
+        @else
+                    -
+            @endif
+        </td>
         </tr>
     </table>
     @if(Auth::check() && $planet->author == Auth::user())

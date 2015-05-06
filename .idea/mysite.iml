@@ -16,6 +16,8 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/filp/whoops" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/install/netboot" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/intervention/image" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/jeremeamia/SuperClosure" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/laravel/framework" />
@@ -76,9 +78,11 @@
           <root url="file://$MODULE_DIR$/vendor/filp/whoops" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
           <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/vendor/intervention/image" />
           <root url="file://$MODULE_DIR$/vendor/symfony/filesystem" />
           <root url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
           <root url="file://$MODULE_DIR$/vendor/barryvdh/laravel-ide-helper" />
+          <root url="file://$MODULE_DIR$/vendor/install/netboot" />
           <root url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
@@ -122,9 +126,11 @@
           <root url="file://$MODULE_DIR$/vendor/filp/whoops" />
           <root url="file://$MODULE_DIR$/vendor/psr/log" />
           <root url="file://$MODULE_DIR$/vendor/symfony/finder" />
+          <root url="file://$MODULE_DIR$/vendor/intervention/image" />
           <root url="file://$MODULE_DIR$/vendor/symfony/filesystem" />
           <root url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
           <root url="file://$MODULE_DIR$/vendor/barryvdh/laravel-ide-helper" />
+          <root url="file://$MODULE_DIR$/vendor/install/netboot" />
           <root url="file://$MODULE_DIR$/vendor/swiftmailer/swiftmailer" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
           <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />

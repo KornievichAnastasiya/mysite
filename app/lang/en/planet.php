@@ -25,5 +25,6 @@ return array(
     'title_show' => 'Planet ":planetName"',
     'version_game' => 'Version game',
     'views' => 'Count views',
+    'image'=>'Image',
 
 );
