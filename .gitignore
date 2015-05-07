@@ -1,6 +1,7 @@
 /bootstrap/compiled.php
 /app/config/local/mail.php
 /vendor
+/public/img/uploads
 composer.phar
 composer.lock
 CONTRIBUTING.md
