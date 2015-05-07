@@ -26,3 +26,13 @@ Route::get('/language/{locale}',[
     'as'=>'language',
     'uses'=>'HomeController@language',
 ]);
+
+Route::group([
+
+    'before'=>'auth',
+        ], function(){
+    Route::get('admin/test',[
+        'as'=>'test',
+        'uses'=>'AdminController@test',
+    ]);
+});
