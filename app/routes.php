@@ -22,17 +22,38 @@ Route::controller('users', 'UsersController');
 
 Route::controller('password', 'RemindersController');
 
-Route::get('/language/{locale}',[
-    'as'=>'language',
-    'uses'=>'HomeController@language',
+Route::get('/language/{locale}', [
+    'as' => 'language',
+    'uses' => 'HomeController@language',
 ]);
 
 Route::group([
-
-    'before'=>'auth',
-        ], function(){
-    Route::get('admin/test',[
-        'as'=>'test',
-        'uses'=>'AdminController@test',
+    'namespace' => 'admin',
+    'before' => 'auth',
+], function () {
+    Route::get('admin_test', [
+        'as' => 'test',
+        'uses' => 'AdminController@test',
     ]);
+
+    Route::get('admin/control', [
+        'as' => 'admin_control',
+        'uses' => 'AdminController@index',
+    ]);
+    Route::get('admin/sectors', [
+        'as' => 'admin_sectors_show',
+        'uses' => 'SectorController@index',
+    ]);
+
+    Route::get('admin/stars', [
+        'as' => 'admin_stars_show',
+        'uses' => 'StarController@index',
+    ]);
+
+    Route::get('admin/planets', [
+        'as' => 'admin_planets_show',
+        'uses' => 'PlanetController@index',
+    ]);
+
+
 });
